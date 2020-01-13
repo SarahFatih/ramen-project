@@ -1,10 +1,10 @@
 import React from 'react';
-import { Ramen } from './myGraph';
+import { RamenCreator } from './myGraph';
 
 function App() {
   return (
     <div className="App">
-      <Ramen />
+      <RamenCreator />
     </div>
   );
 }

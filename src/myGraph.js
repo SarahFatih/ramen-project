@@ -20,13 +20,17 @@ const graph = {
   connections: [],
 };
 
+const RamenCreator = () => {
+  return (
+    <Ramen
+      schema={schema}
+      initialGraph={graph}
+      canZoom={false}
+      canPan={false}
+      height={400}
+    />
+  )
+}
 
-<Ramen
-  schema={schema}
-  initialGraph={graph}
-  canZoom={false}
-  canPan={false}
-  height={400}
-/>
 
-export default Ramen;
+export default RamenCreator;
