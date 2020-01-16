@@ -1,9 +1,12 @@
-import Editor, { RamenProvider } from "ramen";
-
+import React from 'react';
+import Ramen from '@au-re/ramen';
 const schema = {
   nodeTypes: {
-    numberNode: {
-      name: "My Node",
+    numberNodeOne: {
+      name: "My Node 1",
+    },
+    numberNodeTwo: {
+      name: "My Node 2",
     },
   },
 };
@@ -14,7 +17,13 @@ const graph = {
       id: "0",
       x: 100,
       y: 50,
-      type: "numberNode",
+      type: "numberNodeOne",
+    },
+    {
+      id: "1",
+      x: 400,
+      y: 200,
+      type: "numberNodeTwo",
     }
   ],
   connections: [],

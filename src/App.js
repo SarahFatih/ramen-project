@@ -1,5 +1,5 @@
 import React from 'react';
-import { RamenCreator } from './myGraph';
+import RamenCreator from './myGraph';
 
 function App() {
   return (
